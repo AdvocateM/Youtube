@@ -66,6 +66,19 @@ body {
     height: 100%;
     background: white;
 }
+.category-section {
+    border-bottom: 1px solid #cccccc;
+    margin-top: 10px;
+}
+.category-section .category:last-child{
+    margin-bottom: 10px;
+}
+.category_heading {
+    margin: 10px 0px 10px 25px;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+}
 .category {
     width: 100%;
     display: flex;
@@ -93,6 +106,25 @@ body {
     margin-right: 24px;
 }
 
+.cagories-footer {
+    padding: 25px;
+}
+.footer-section {
+    margin-bottom: 12px;
+}
+.footer-section span {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+    color: #606060;
+    cursor: pointer;
+}
+.copyright {
+    color: #606060;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 .videos {
     width: calc(100vw - 240px);
     height: 100%;
