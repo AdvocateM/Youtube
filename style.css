@@ -16,6 +16,9 @@ body {
     align-items: center;
     height: 56px;
     padding: 0 16px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 .navbar .logo {
     display: flex;
@@ -59,12 +62,14 @@ body {
 .mainbody {
     height: calc(100vh - 56px);
     display: flex;
+    overflow: hidden;
 }
 
 .categories {
     width: 240px;
     height: 100%;
     background: white;
+    overflow-y: scroll;
 }
 .category-section {
     border-bottom: 1px solid #cccccc;
