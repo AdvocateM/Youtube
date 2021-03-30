@@ -31,12 +31,15 @@ body {
 }
 .navbar .searchbar {
     display: flex;
+    align-items: center;
+    height: 32px;
 }
 
 .search {
     display: flex;
     border: 1px solid #cccccc;
     width: 600px;
+    height: 100%;
     margin-right: 10px;
 }
 .search input {
@@ -49,6 +52,7 @@ body {
     border-left: 1px solid #cccccc;
     width: 10%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .search button i {
@@ -147,6 +151,7 @@ body {
     width: calc(25% - 12px);
     margin-right: 12px;
     margin-bottom: 35px;
+    cursor: pointer;
 }
 .video .thumbnail img {
     width: 100%;
